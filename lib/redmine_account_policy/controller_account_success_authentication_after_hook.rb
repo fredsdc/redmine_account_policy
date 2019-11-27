@@ -2,7 +2,7 @@ module RedmineAccountPolicy
   module Hooks
     class ControllerAccountSuccessAuthenticationAfter  < Redmine::Hook::ViewListener
 
-      include RedmineAccountPolicy::Patches::AccountControllerPatch::DailyCronMethods
+      include RedmineAccountPolicy::AccountControllerPatch::DailyCronMethods
       def controller_account_success_authentication_after(context={})
         # reset failed login attempts for current user
         $invalid_credentials_cache.delete(User.current.login.downcase)

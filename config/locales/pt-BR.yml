@@ -22,11 +22,11 @@ pt-BR:
 
   rap_mail_subject_warn_expiry:       'Atenção - Sua senha vai expirar em %{days_left} dias'
   rap_mail_body_warn_expiry_header:   'Atenção Para a Expiração da Senha'
-  rap_mail_body_warn_expiry:          'A senha da conta "%{name}" [%{login}] vai expirar em %{days_left} dias. Favor se autenticar e alterá-la antes disso.' 
+  rap_mail_body_warn_expiry:          'A senha da conta "%{name}" [%{login}] vai expirar em %{days_left} dias. Favor se autenticar e alterá-la antes disso.'
 
   rap_mail_subject_is_expired:       'Senha Expirada'
   rap_mail_body_is_expired_header:   'Notificação de Expiração de Senha'
-  rap_mail_body_is_expired:          'A senha da conta "%{name}" [%{login}] expirou.' 
+  rap_mail_body_is_expired:          'A senha da conta "%{name}" [%{login}] expirou.'
 
     # == password reuse == #
   rap_setting_password_reuse:         'Reuso de Senha'
@@ -43,7 +43,7 @@ pt-BR:
   rap_setting_invalid_logins_c:       'falhas de autenticação'
   rap_setting_notify_on_failure:      'Notificar usuário a cada falha'
   rap_setting_notify_on_lockout:      'Usuários e Administradores sempre são notificados quando a conta é bloqueada.'
-  rap_notice_invalid_logins_remaining: 'tentativas sobrando.'
+  rap_notice_invalid_logins_remaining: '%{trials_left} tentativas sobrando.'
 
   rap_notice_account_lockout:         'Sua conta for bloqueada por exceder o número máximo de tentativas. Espere '
 
@@ -68,4 +68,4 @@ pt-BR:
     # == daily cron == #
   rap_setting_account_policy_checked_on: 'Políticas de conta checadas em'
 
-  notice_account_lost_email_sent:        'Um email com instruções para alteração da senha será enviado se esta conta existir e estiver desbloqueada!' 
+  notice_account_lost_email_sent:        'Um email com instruções para alteração da senha será enviado se esta conta existir e estiver desbloqueada!'

@@ -2,10 +2,11 @@
 
 require_dependency 'redmine_account_policy/account_controller_patch'
 require_dependency 'redmine_account_policy/controller_account_success_authentication_after_hook'
+require_dependency 'redmine_account_policy/hooks'
+require_dependency 'redmine_account_policy/invalid_credentials_methods'
 require_dependency 'redmine_account_policy/mailer_patch'
 require_dependency 'redmine_account_policy/my_controller_patch'
 require_dependency 'redmine_account_policy/user_patch'
-require_dependency 'redmine_account_policy/hooks'
 require_dependency 'redmine_account_policy/users_helper_patch'
 
 Redmine::Plugin.register :redmine_account_policy do
