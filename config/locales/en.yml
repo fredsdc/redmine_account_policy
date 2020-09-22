@@ -68,4 +68,4 @@ en:
     # == daily cron == #
   rap_setting_account_policy_checked_on: 'Account policies last checked on'
 
-  notice_account_lost_email_sent:        'An email with instructions to choose a new password will be sent to you if this account exists and is unlocked!' 
+  notice_account_lost_email_sent:        'An email with instructions to choose a new password will be sent to you if this account exists and is unlocked! Serpro users should go to https://trocasenha.serpro.gov.br to change their password.' 

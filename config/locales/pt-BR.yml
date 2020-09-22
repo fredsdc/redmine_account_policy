@@ -68,4 +68,4 @@ pt-BR:
     # == daily cron == #
   rap_setting_account_policy_checked_on: 'Políticas de conta checadas em'
 
-  notice_account_lost_email_sent:        'Um email com instruções para alteração da senha será enviado se esta conta existir e estiver desbloqueada!' 
+  notice_account_lost_email_sent:        'Um email com instruções para alteração da senha será enviado se esta conta existir e estiver desbloqueada! Usuários do Serpro devem trocar a senha em https://trocasenha.serpro.gov.br' 
